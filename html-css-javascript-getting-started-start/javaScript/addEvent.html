@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventListner</title>
+</head>
+<body>
+    <button id="click-me">Cick Me</button>
+    <script>
+        window.addEventListener("DOMContentLoaded", function(e)
+        {
+            console.log("Page is loaded.");
+            let btn = document.querySelector("#click-me");
+            btn.addEventListener("click", function(e){
+                console.log("Button has clicked");
+            })
+        });
+    </script>
+</body>
+</html>

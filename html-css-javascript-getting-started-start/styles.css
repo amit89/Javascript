@@ -1,0 +1,29 @@
+.name{
+    display: inline-block;
+    color: black(102, 7, 7);
+    width: 100px;
+}
+.heading
+{
+ color: darkgoldenrod;
+}
+.description
+{
+ color: darkgreen;
+}
+body
+{
+ background-color: rgba(238, 238, 238, 0.596);
+}
+ table, td, th{
+     border: solid 2px #777;
+ }
+ .tutorial > p{
+     font-size: 1em 
+ }
+
+ div > p{
+     display: inline;
+     width: 100px;
+ }
+

@@ -1,0 +1,12 @@
+#apple-shelf{
+    height: 20px;
+    width: 500px;
+    background-color: #ff00004e;
+    padding-bottom: 10px;
+}
+
+#orange-shelf{
+    height: 20px;
+    width: 500px;
+    background-color: orange;
+}
